@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="https://tailwindcss.com/.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons/house?f=classic&s=solid">
+
+    <title>AboutSelf</title>
+</head>
+<body>
+    <header class="bg-slate-500">
+        <section>
+           
+            <div class="md:flex justify-between content-center row">
+                <div class="md:flex-row justify-between items-center">
+                    <div class="container flex-1 ">
+                        <div class="md:flex">
+                            <figure>
+                                <img id="logo-" src="image/logo.png" alt="Logo of website" class="!place-items-start max-w-00.12 h-1" >
+                            </figure>
+                            <figcaption><h1 class="text-justify hover:transition-colors-slate-500 cursor-pointer  text-yellow-700">AboutSelf</h1></figcaption>
+                        </div>
+                        <nav class="md:grid bg-gray-800 flex-row items-center justify-between h-16 inline-block text-justify">
+                            
+                            <ul class="bg-slate-50 p-4 sm:px-8 sm:pt-6 sm:pb-8 lg:p-4 xl:px-8 xl:pt-6 xl:pb-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 gap-4 text-sm leading-6">
+                                <li><a  class="hover:bg-blue-500 hover:ring-blue-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm"href="index.html">Home</a></li>
+                                <li><a  class="hover:bg-blue-500 hover:ring-blue-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm"href="history.html">History</a></li>
+                                <li><a  class="hover:bg-blue-500 hover:ring-blue-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm" href="myskill.html">MySkill</a></li>
+                                <li><a  class="hover:bg-blue-500 hover:ring-blue-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm" href="about.html">About</a></li>
+                                <li><a  class="hover:bg-blue-500 hover:ring-blue-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm"href="hobby.html">Hobby</a></li>
+                                <li><a  class="hover:bg-blue-500 hover:ring-blue-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm"href="tour.html">Tour</a></li>
+                                <li><a  class="hover:bg-blue-500 hover:ring-blue-500 hover:shadow-md group rounded-md p-3 bg-white ring-1 ring-slate-200 shadow-sm"href="contact.html">Contact Us</a></li>
+                                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                            </ul>
+                            <i class="fa-solid fa-house" onclick="openmenu()"></i>
+                        
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+    </header>
+    <hr>
+    <main>
+        
+       <div class="main">
+        <section>
+            <h2>WEL COME TO MY HOME!</h2>
+            
+            <img src="image/photo1.jpg" width="1000" alt="House">
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit. Non harum a reprehenderit fuga sequi <br>
+                 sunt recusandae voluptas, hic obcaecati officiis cumque veritatis 
+                 culpa accusantium eius, 
+                
+                pariatur enim at animi. Minima.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Cumque qui asperiores repellat ut perspiciatis! Voluptates ipsum recusandae cupiditate 
+                    quisquam ea autem cum corporis et, excepturi laborum quas officia molestiae incidunt!</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Distinctio et blanditiis architecto ipsam necessitatibus vero aspernatur 
+                 itaque quia, quisquam voluptate illum nisi ducimus? Accusamus labore ratione,
+                 at tenetur quia explicabo!
+            </p>
+            
+        </section>
+       </div>
+        
+       
+    </main>
+    <hr>
+    <footer>
+        <div class="footer">
+            <section>
+                <h5> follow us</h5>
+                <div>
+                    <ul>
+                        <li><a href="aboutself@gmail.com">aboutself@gmail.com<img src="image/email-icon.jpg" width="5" height="3" alt="email icon"></a></li>
+                        <li><a href="#contact">conact us</a></li>
+                        <li><a href="#call-Us">call Us :</a></li>
+                        <li>&#128222; +251712520304 </li>
+                    
+                    </ul>
+                    
+                </div>
+                
+                <div>
+                    <a href="https://www.shutterstock.com/image-vector/copyright-symbol-vector-icon-isolated-on-523822222"><img src="image/copyimage.jpg" alt="copy right photo" >2023 by AboutSelf</a>
+                    
+                </div>
+               
+            <div>
+                <span>copy Right </span>
+            </div>
+            </section>
+            <hr>
+        </div>
+        
+        
+    </footer>
+
+
+    <!-- Above is home page -->
+   <script src="script.js"></script>
+   <script>
+    let sidemenu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemenu.style.right="0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+</html>
